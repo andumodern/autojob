@@ -1,103 +1,173 @@
 personal_information:
-  name: "[Your name]"
-  surname: "[Your surname]"
-  dateOfBirth: "[Your Date of Birth]"
-  country: "[Your country]"
-  city: "[Your city]"
-  address: "[Your address]"
-  phonePrefix: "[Your phone number prefix]"
-  phone: "[Your phone number]"
-  email: "[Your email]"
-  github: "[Link]"
-  linkedin: "[Link]"
+  name: "Andu"
+  surname: "Nguyen"
+  dateOfBirth: "11/02/1988"
+  country: "USA"
+  city: "Fountain Valley"
+  address: "Fountain Valley, CA 92708"
+  phonePrefix: ""
+  phone: "(669) 770-5216"
+  email: "andu.ucsd@gmail.com"
+  linkedin: "https://www.linkedin.com/in/andunguyen/"
+  github: ""
 
 self_identification:
-  gender: "[Specific gender identification]"
-  pronouns: "[Your Pronouns]"
-  veteran: [true/false]
-  disability: [true/false]
-  ethnicity: "[Specify ethnicity]"
+  gender: "Male"
+  pronouns: "He/Him"
+  veteran: false
+  disability: false
+  ethnicity: "Asian"
 
 legal_authorization:
-  euWorkAuthorization: [true/false]
-  usWorkAuthorization: [true/false]
-  requiresUsVisa: [true/false]
-  legallyAllowedToWorkInUs: [true/false]
-  requiresUsSponsorship: [true/false]
-  requiresEuVisa: [true/false]
-  legallyAllowedToWorkInEu: [true/false]
-  requiresEuSponsorship: [true/false]
+  euWorkAuthorization: false
+  usWorkAuthorization: true
+  requiresUsVisa: false
+  legallyAllowedToWorkInUs: true
+  requiresUsSponsorship: false
+  requiresEuVisa: true
+  legallyAllowedToWorkInEu: false
+  requiresEuSponsorship: true
 
 work_preferences:
-  remoteWork: [true/false]
-  inPersonWork: [true/false]
-  openToRelocation: [true/false]
-  willingToCompleteAssessments: [true/false]
-  willingToUndergoDrugTests: [true/false]
-  willingToUndergoBackgroundChecks: [true/false]
+  remoteWork: true
+  inPersonWork: true
+  openToRelocation: false
+  willingToCompleteAssessments: true
+  willingToUndergoDrugTests: true
+  willingToUndergoBackgroundChecks: true
 
 education_details:
-  - degree: "[Bachelor's/Master's/Ph.D.]"
-    university: "[Name of University]"
-    gpa: "[Your GPA]"
-    graduationYear: "[Year of Graduation]"
-    fieldOfStudy: "[Your Field of Study]"
+  - degree: "Doctor of Philosophy"
+    university: "University of California, San Diego"
+    gpa: "3.5/4"
+    graduationYear: "2016"
+    fieldOfStudy: "Mechanical Engineering"
     skillsAcquired:
-      leadership: "[Years]"
-      problemSolving: "[Years]"
-      criticalThinking: "[Years]"
-      adaptability: "[Years]"
-      perfectionism: "[Years]"
-      yourSkill: "[Years]"
-      yourSkill: "[Years]"
+      dataScience: "3"
+      softwareEngineering: "3"
+      machineLearning: "3"
+      problemSolving: "5"
+  - degree: "Master of Science"
+    university: "Catholic University of America"
+    gpa: "3.91/4"
+    graduationYear: "2011"
+    fieldOfStudy: "EECS"
+    skillsAcquired:
+      softwareEngineering: "2"
+      machineLearning: "2"
+  - degree: "Bachelor of Science"
+    university: "Catholic University of America"
+    gpa: "3.92/4"
+    graduationYear: "2010"
+    fieldOfStudy: "EECS"
+    skillsAcquired:
+      softwareEngineering: "2"
+      machineLearning: "2"
 
 experience_details:
-  - position: "[Job Title]"
-    company: "[Company Name]"
-    employmentPeriod: "[Month, Year] - [Month, Year]"
-    location: "[City, Country]"
-    industry: "[Industry of the Company]"
+  - position: "CTO and Co-founder"
+    company: "Modern Recruiting"
+    employmentPeriod: "11/2022 - Present"
+    location: "Fountain Valley, California"
+    industry: "Recruiting Technology"
     keyResponsibilities:
-      responsibility1: "[Description of responsibility1]"
-      responsibility2: "[Description of responsibility1]"
-      responsibility3: "[Description of responsibility1]"
+      responsibility1: "Created a platform tailored for recruiting agencies, emphasizing on intuitive UI, custom workflows and high level of automation."
+      responsibility2: "Built a skilled engineering and product team from the ground up, growth to 12 members."
+      responsibility3: "Responsible for product, engineering, and customer success."
     skillsAcquired:
-      leadership: "[Years]"
-      problemSolving: "[Years]"
-      criticalThinking: "[Years]"
-      adaptability: "[Years]"
-      perfectionism: "[Years]"
-      yourSkill: "[Years]"
-      yourSkill: "[Years]"
+      leadership: "5"
+      agileMethodologies: "5"
+  - position: "Lead Software Engineer"
+    company: "6sense"
+    employmentPeriod: "11/2021 - 11/2022"
+    location: "San Jose, California"
+    industry: "Marketing"
+    keyResponsibilities:
+      responsibility1: "Built and managed an 8-member software engineering team to migrate over 1 million lines of code from Python 2 to Python 3."
+      responsibility2: "Led the data orchestration team on a comprehensive redesign of the orchestration platform to significantly enhance scalability and usability."
+    skillsAcquired:
+      leadership: "4"
+      agileMethodologies: "4"
+      java: "3"
+  - position: "Staff Software Engineer"
+    company: "One Concern"
+    employmentPeriod: "3/2020 - 11/2021"
+    location: "San Jose, California"
+    industry: "Risk Management"
+    keyResponsibilities:
+      responsibility1: "Spearheaded an overhaul of the platform, achieving a pivotal enhancement in reliability and enabling a 100-fold increase in scalability."
+      responsibility2: "Led the backend team in evolving and expanding flood forecasting products, contributing to disaster relief efforts across hundreds of cities in Japan."
+    skillsAcquired:
+      leadership: "3"
+      agileMethodologies: "4"
+      python: "5"
+      gcp: "4"
+  - position: "Senior Software Engineer"
+    company: "Tesla"
+    employmentPeriod: "3/2015 - 3/2020"
+    location: "Palo Alto, California"
+    industry: "Energy"
+    keyResponsibilities:
+      responsibility1: "Pioneered the development and operations of the AutoBidder trading platform, transforming it from an initial concept to a commercially successful product for large battery projects, bringing in over $20M in annual revenue from trading energy alone."
+    skillsAcquired:
+      python: "4"
+      aws: "3"
+      dataScience: "3"
+      machineLearning: "3"
 
 projects:
-  project1: "[Description of significant projects you've worked on + if available repo link]"
-  project2: "[Description of significant projects you've worked on + if available repo link]"
+  project1: "Developed a high-frequency trading platform using Python, bidding 100 MW battery into Australian power market, making $13M in 2020."
+  project2: "Refactored and scaled up the flood forecasting system to cover over 100 cities in Japan from 1 city, increasing the ability to process data more than 100X."
+  project3: "Built a team from scratch, enabling the migration of more than 1 million lines of code from Python 2 to Python 3, reducing the risk of security vulnerabilities and ensuring the platform's longevity."
+  project4: "Built a SAAS platform for recruiting agencies, enabling them to manage their clients, candidates, and jobs more efficiently, improving their efficiency by 4X from day 1 and revenue by at least 30%."
 
 availability:
-  noticePeriod: "[Specify notice period]"
+  noticePeriod: "2 weeks"
 
 salary_expectations:
-  salaryRangeUSD: "[Specify your salary expectations in USD]"
+  salaryRangeUSD: "180000"
 
 certifications:
-  - "[Certification 1]"
-  - "[Certification 2]"
-  - "[Certification 3]"
-
+  - ""
+  
 skills:
-  problemSolving: "[Years]"
-  criticalThinking: "[Years]"
-  adaptability: "[Years]"
-  perfectionism: "[Years]"
-  yourSkill: "[Years]"
-  yourSkill: "[Years]"
+  leadership: 5
+  problemSolving: 5
+  criticalThinking: 5
+  adaptability: 4
+  python: 5
+  fullStackDevelopment: 3
+  databaseManagement: 4
+  versionControl: 5
+  agileMethodologies: 5
+  devOpsPractices: 3
+  algorithmDesign: 5
+  softwareArchitecture: 5
+  teamCollaboration: 5
+  documentation: 4
+  java: 3
+  sql: 5
+  continuousIntegration: 4
+  continuousDeployment: 4
+  dataEngineering: 5
+  machineLearning: 3
+  kubernetes: 4
+  gcp: 5
+  aws: 3
+  dataScience: 3
+  softwareEngineering: 5
+  problemAnalysis: 5
+  projectManagement: 4
+  communication: 5
+  docker: 4
+  git: 5
+  jenkins: 4
 
 languages:
-  - language: "Italian"
-    proficiency: "Native"
   - language: "English"
-    proficiency: "Professional"
+    proficiency: "Native"
+  - language: "Vietnamese"
+    proficiency: "Native"
 
 interests:
-  - "[List any hobbies or interests relevant to your professional profile]"
+  - "Soccer"

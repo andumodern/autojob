@@ -130,12 +130,14 @@ class LinkedInJobManager:
             if not job_list_elements:
                 raise Exception("No job class elements found on page")
             job_list = [Job(*self.extract_job_information_from_tile(job_element)) for job_element in job_list_elements]
+            utils.printyellow(f"Found {len(job_list)} jobs on this page.")
             for job in job_list:
                 if self.is_blacklisted(job.title, job.company, job.link):
                     utils.printyellow(f"Blacklisted {job.title} at {job.company}, skipping...")
                     self.write_to_file(job.company, job.location, job.title, job.link, "skipped")
                     continue
                 try:
+                    utils.printyellow(f"Applying to {job.title} at {job.company} in {job.location}.")
                     if job.apply_method not in {"Continue", "Applied", "Apply"}:
                         self.easy_applier_component.job_apply(job)
                 except Exception as e:
