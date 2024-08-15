@@ -131,36 +131,36 @@ certifications:
   - ""
   
 skills:
-  leadership: 5
-  problemSolving: 5
-  criticalThinking: 5
-  adaptability: 4
-  python: 5
+  leadership: 7
+  problemSolving: 9
+  criticalThinking: 9
+  adaptability: 7
+  python: 9
   fullStackDevelopment: 3
-  databaseManagement: 4
-  versionControl: 5
-  agileMethodologies: 5
-  devOpsPractices: 3
-  algorithmDesign: 5
-  softwareArchitecture: 5
-  teamCollaboration: 5
-  documentation: 4
-  java: 3
-  sql: 5
-  continuousIntegration: 4
-  continuousDeployment: 4
-  dataEngineering: 5
-  machineLearning: 3
-  kubernetes: 4
-  gcp: 5
-  aws: 3
-  dataScience: 3
-  softwareEngineering: 5
-  problemAnalysis: 5
-  projectManagement: 4
-  communication: 5
-  docker: 4
-  git: 5
+  databaseManagement: 7
+  versionControl: 9
+  agileMethodologies: 7
+  devOpsPractices: 5
+  algorithmDesign: 9
+  softwareArchitecture: 9
+  teamCollaboration: 9
+  documentation: 7
+  java: 5
+  sql: 7
+  continuousIntegration: 7
+  continuousDeployment: 7
+  dataEngineering: 9
+  machineLearning: 5
+  kubernetes: 6
+  gcp: 6
+  aws: 5
+  dataScience: 5
+  softwareEngineering: 9
+  problemAnalysis: 9
+  projectManagement: 5
+  communication: 9
+  docker: 7
+  git: 9
   jenkins: 4
 
 languages:

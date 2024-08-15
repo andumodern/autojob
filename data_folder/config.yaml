@@ -30,12 +30,13 @@ positions:
   - Software engineer
 
 locations:
-  - Los Angeles
-  - Irvine
   - Fountain Valley
+  - Irvine
+  - Los Angeles
 
 distance: 50
 
 companyBlacklist:
+  - CyberCoders
 
 titleBlacklist:

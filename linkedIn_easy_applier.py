@@ -4,8 +4,7 @@ import random
 import tempfile
 import time
 import traceback
-import uuid
-from datetime import date
+from datetime import date, datetime, timedelta
 from typing import Any, List, Optional, Tuple
 
 from reportlab.lib.pagesizes import letter
@@ -179,7 +178,7 @@ class LinkedInEasyApplier:
                 with tempfile.NamedTemporaryFile(delete=False, suffix='.html', mode='w', encoding='utf-8') as temp_html_file:
                     temp_html_file.write(html_string)
                     file_name_HTML = temp_html_file.name
-                file_name_pdf = f"resume_{uuid.uuid4().hex}.pdf"
+                file_name_pdf = f"Andu_CV_{(datetime.today() - timedelta(weeks=4)).strftime('%Y%m%d_%H%M')}.pdf"
                 file_path_pdf = os.path.join(folder_path, file_name_pdf)
                 with open(file_path_pdf, "wb") as f:
                     f.write(base64.b64decode(utils.HTML_to_PDF(file_name_HTML)))
