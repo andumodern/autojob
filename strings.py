@@ -6,7 +6,6 @@ Act as an HR expert and resume writer specializing in ATS-friendly resumes. Your
    - Educational background
    - Relevant skills
    - Achievements
-   - Certifications
 
 2. **Optimize the Resume**: Using the provided template, create a highly optimized resume for the relevant industry. The resume should:
    - Include commonly required skills and keywords for the industry
@@ -29,7 +28,6 @@ Provide guidance on how to enhance the presentation of the information to maximi
 [Your Prefix Phone number](tel: Your Prefix Phone number)
 [Your Email](mailto:Your Email)
 [LinkedIn](Link LinkedIn account)
-[GitHub](Link GitHub account)
 
 ## Summary
 
@@ -82,12 +80,6 @@ Provide guidance on how to enhance the presentation of the information to maximi
 [University Name] – [City, State]
 *Graduated: [Month Year]*
 
-## Certifications
-
-1. [Certification Name]
-2. [Certification Name]
-3. [Certification Name]
-
 ## Projects
 
 ### [Project Name]
@@ -99,10 +91,6 @@ Provide guidance on how to enhance the presentation of the information to maximi
 ### [Project Name]
 1. [Brief description of the project and your role]
 
-## Languages
-
-1. **[Language]:** [Proficiency Level]
-2. **[Language]:** [Proficiency Level]
 ```
 The results should be provided in **markdown** format, Provide only the markdown code for the resume, without any explanations or additional text and also without ```markdown ```
 """
@@ -380,7 +368,7 @@ Include only relevant information to match the job description against the resum
 Your analysis should include the following sections:
 Technical Skills: List all the specific technical skills required for the role based on the responsibilities described in the job description.
 Soft Skills: Identify the necessary soft skills, such as communication abilities, problem-solving, time management, etc.
-Educational Qualifications and Certifications: Specify the essential educational qualifications and certifications for the role.
+Educational Qualifications: Specify the essential educational qualifications for the role.
 Professional Experience: Describe the relevant work experiences that are required or preferred.
 Role Evolution: Analyze how the role might evolve in the future, considering industry trends and how these might influence the required skills.
 
