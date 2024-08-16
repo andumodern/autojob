@@ -28,6 +28,7 @@ positions:
   - Python developer
   - Backend engineer
   - Software engineer
+  - Engineering manager
 
 locations:
   - Fountain Valley
@@ -38,5 +39,7 @@ distance: 50
 
 companyBlacklist:
   - CyberCoders
+  - Fractal
+  - Toptal
 
 titleBlacklist:
